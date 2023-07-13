@@ -30,7 +30,8 @@
 ">git add</font>, и сохраняет их
 слепок во внутренней базе данных, а затем сдвигает указатель текущей ветки на этот слепок. 
 ### Ветки
-* <font color ="yellow">git checkout  </font> <font color="orange"> номер коммита</font> or<font color="orange"> название ветки</font>  - переключает между версиями и ветками.
+* <font color ="yellow">git checkout  </font> <font color="orange"> номер коммита</font> or<font color="orange"> название ветки</font>  -  переключает между версиями и ветками.
+* <font color ="yellow">git checkout</font> <font color="orange">-b название ветки</font> - позволяет создать новую ветку и тут же переместиться на нее.
 
 * [Статья](https://gb.ru/posts/soveti-pro-git) про папки, репозитории и некоторые сложности при освоении контроля версий от Ильнара Шафигуллина.
 * Дополнительный [курс](https://gb.ru/courses/1117) по Git.
