@@ -56,6 +56,9 @@ _вот так_.
 ### Решение проблем с SSH
 * [Статья](https://umedman.gitbooks.io/-git-keys-/content/kodovie_frazi.html) о изменении кодовой фразы и автозапуск с SSH-agenta
 
+* [Cтатья](https://winitpro.ru/index.php/2022/12/22/nastrojka-ssh-vscode/) о
+ настройке SSH подключений в Visual Studio Code
+
 ### Дополнительная информация
 * [Статья](https://gb.ru/posts/soveti-pro-git) про папки, репозитории и некоторые сложности при освоении контроля версий от Ильнара Шафигуллина.
 * Дополнительный [курс](https://gb.ru/courses/1117) по Git.
