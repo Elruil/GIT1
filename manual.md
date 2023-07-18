@@ -20,7 +20,8 @@
 
 * Показывает разницу между текущим файломи сохранённым -  <font color="yellow
 ">git diff</font>
-
+* <font color="yellow">git remote</font> - просмотр списка удалённых репозиториев.
+* <font color="yellow">git fetch</font> - загрузка изменений из удалённого репозитория без слияния с локальной веткой.
 ### Сохранение изменений
 *  <font color="yellow">  git add</font> <font color="orange">Название файла</font>.<font color="yellow">Расширение файла</font> - добавляет содержимое рабочего каталога в индекс(staging area) для последующего коммита. Команда<font color ="yellow"> git add --all</font> добавляет все измененные и неотслеживаемые файлы в репозиторий и обновляет дерево изменений репозитория.
 * <font color="yellow">git reset </font> - для отмены коммита или проиндексированного снимка состояния.
@@ -36,6 +37,13 @@
 * <font color ="yellow">git checkout  </font> <font color="orange"> номер коммита</font> or<font color="orange"> название ветки</font>  -  переключает между версиями и ветками.
 * <font color ="yellow">git checkout</font> <font color="orange">-b название ветки</font> - позволяет создать новую ветку и тут же переместиться на нее.
 * <font color ="yellow">git branch  </font> <font color="orange">-d "имя ветки"</font> - удаление ветки
+* <font color ="yellow">git branch</font><font color ="orange"> -r  </font> - просмотр списка удалённых веток.
+* <font color ="yellow">git branch</font><font color ="orange"> -a  </font> - просмотр списка всех локальных и удалённых веток.
+* <font color ="yellow">git branch</font><font color ="orange"> --track <branch_name> <remote_branch>  </font> - - создание локальной ветки, отслеживающей удалённую ветку.
+* <font color ="yellow">git remote</font><font color ="orange"> add <remote_name> <remote_url>  </font> - добавление нового удалённого репозитория.
+* <font color ="yellow">git remote</font><font color ="orange"> remove <remote_name>  </font>  - удаление удалённого репозитория.
+
+
 ## Выделение текста
 ### Списки
 * Что бы добавить ненумерованные списки, необходимо пункты выделить звездочкой (<font color ="yellow">*</font>). Например, вот так:
@@ -57,15 +65,15 @@ _вот так_.
 * Чтобы выделить текст полужирным, необходимо его обрамить двойными звёздочками<font color ="yellow">(**)</font>. 
 Например, **вот так**.
 ### Решение проблем с SSH
-* [Статья](https://umedman.gitbooks.io/-git-keys-/content/kodovie_frazi.html) о изменении кодовой фразы и автозапуск с SSH-agenta
+* [Статья](https://umedman.gitbooks.io/-git-keys-/content/kodovie_frazi.html) о изменении кодовой фразы и автозапуск с SSH-agenta.
 
 * [Cтатья](https://winitpro.ru/index.php/2022/12/22/nastrojka-ssh-vscode/) о
- настройке SSH подключений в Visual Studio Code
+ настройке SSH подключений в Visual Studio Code.
 
 ### Дополнительная информация
 * [Статья](https://gb.ru/posts/soveti-pro-git) про папки, репозитории и некоторые сложности при освоении контроля версий от Ильнара Шафигуллина.
 * Дополнительный [курс](https://gb.ru/courses/1117) по Git.
-* [скринкаст](https://vimeo.com/showcase/5616060?page=2)   от Ильи Кантора
+* [скринкаст](https://vimeo.com/showcase/5616060?page=2)   от Ильи Кантора.
 
 
 
